@@ -1,0 +1,30 @@
+header {
+  width: 600px;
+  margin-inline: auto;
+  height: 100%;
+}
+main {
+  width: 600px;
+  margin-inline: auto;
+  height: 100%;
+}
+
+.titoletto {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+}
+
+.focaccia {
+  width: 100%;
+}
+
+.separatore {
+  border-width: 1px;
+  border-style: solid;
+
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+
+  border-color: rgb(112, 201, 240);
+}
