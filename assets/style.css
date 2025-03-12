@@ -1,5 +1,8 @@
+body {
+  font-family: serif;
+}
+
 header {
-  width: 600px;
   margin-inline: auto;
   height: 100%;
 }
@@ -9,13 +12,35 @@ main {
   height: 100%;
 }
 
+.logo {
+  text-align: center;
+}
+
 .titoletto {
   text-align: center;
+  color: green;
+  font-size: x-small;
   background-color: lightgoldenrodyellow;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-width: 3px;
+  border-style: solid;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+
+  border-color: rgb(240, 240, 112);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
 }
 
 .focaccia {
   width: 100%;
+  border-radius: 3%;
 }
 
 .separatore {
@@ -27,4 +52,21 @@ main {
   border-right: 0px;
 
   border-color: rgb(112, 201, 240);
+}
+
+.bordodiv {
+  border-width: 2px;
+  border-style: solid;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-right: 0px;
+
+  padding-left: 10px;
+
+  border-color: yellow;
+}
+
+li {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
