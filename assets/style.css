@@ -5,9 +5,11 @@ body {
 header {
   margin-inline: auto;
   height: 100%;
+  max-width: 100%;
 }
 main {
   width: 600px;
+  max-width: 100%;
   margin-inline: auto;
   height: 100%;
 }
@@ -39,8 +41,8 @@ h1 {
 }
 
 .focaccia {
-  width: 100%;
   border-radius: 3%;
+  max-width: 100%;
 }
 
 .separatore {
